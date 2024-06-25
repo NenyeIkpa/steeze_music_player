@@ -1,29 +1,45 @@
 {
-	"expo": {
-		"name": "steeze_music_player",
-		"slug": "steeze_music_player",
-		"version": "1.0.0",
-		"orientation": "portrait",
-		"icon": "./assets/icon.png",
-		"userInterfaceStyle": "light",
-		"scheme": "steeze_music_player",
-		"splash": {
-			"image": "./assets/splash.png",
-			"resizeMode": "contain",
-			"backgroundColor": "#ffffff"
-		},
-		"ios": {
-			"supportsTablet": true
-		},
-		"android": {
-			"adaptiveIcon": {
-				"foregroundImage": "./assets/adaptive-icon.png",
-				"backgroundColor": "#ffffff"
-			}
-		},
-		"web": {
-			"favicon": "./assets/favicon.png"
-		},
-		"plugins": ["expo-router"]
-	}
+  "expo": {
+    "name": "steeze_music_player",
+    "slug": "steeze_music_player",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "scheme": "steeze_music_player",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.nenyeikpa.steeze_music_player"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "tsconfigPaths": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "494b1cf3-2a92-4e07-95de-642c382f52ff"
+      }
+    },
+    "owner": "nenyeikpa"
+  }
 }
